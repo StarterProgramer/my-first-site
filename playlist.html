@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <title>Playlist</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div align="center">
+                    <li><a href="index.html">Main Menu</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="playlist.html">Playlist</a></li>
+                </div>
+            </ul>
+        </nav>
+        <div class="header">
+            <div align="center">
+            <div class="logo-container" id="logo-container">
+                <img src="img/logo.png" alt="logo" id="logo-image">
+            </div>
+        </div>
+        <script src="js/logos.js"></script>
+
+        <div align="center">
+            <h1 class="title text-shadow">!!!I LIKE PROGRAMMING!!!</h1>
+        </div>
+    </header>
+    </section>
+    </article>
+    <h2 align="center">Music Player</h2>
+
+    <div class="music-container play" id="music-container">
+      <div class="music-info">
+        <h4 id="title">Music Player</h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+      <audio src="music/Last Of Us.mp3" id="audio"></audio>
+
+      <div class="img-container">
+        <img src="img/logo.png" alt="music-cover" id="cover" />
+      </div>
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/file.js"></script>
+
+
+
+    <footer>
+        <p>© 2024, My first project. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

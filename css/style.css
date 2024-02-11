@@ -257,3 +257,43 @@ iframe {
     width: 0%;
     transition: width 0.1s linear;
 }
+
+.playlist-container {
+    margin-top: 20px;
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+}
+
+#playlist li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+#playlist li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#playlist li .song-info {
+    border-radius: 30px;
+    overflow: hidden; 
+}
+
+#playlist li .song-text {
+    display: none;
+}
+
+#playlist li:hover {
+    text-decoration: underline;
+}
+
+#playlist li:hover .song-text {
+    display: block;
+}
+
